@@ -82,7 +82,7 @@ def lambda_handler(event, context):
     except Exception as e:
         return {
             "statusCode": 400,
-            "body": json.dumps(e)
+            "body": str(e) 
         }
 
 
