@@ -1,4 +1,4 @@
 # Requirements.txt
 
 hyper<0.8.0
-pyopenssl
+pyopenssl<19.2.0

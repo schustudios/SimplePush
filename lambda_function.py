@@ -70,7 +70,7 @@ def send_push(input):
     return conn.get_response()
 
 
-def lambda_function(event, context):
+def lambda_handler(event, context):
     try:
         response = send_push(event)
     
